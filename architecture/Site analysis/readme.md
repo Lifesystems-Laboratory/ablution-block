@@ -4,7 +4,7 @@
 
 The main questions for us were what amount of solar energy we can collect on the surfaсes of our shell and what amount of rainwater we can have in each month from the roof to use in ablution bloсk.
 
-Firstly, we've make a scan of the site using iPad with lidar for the ground and relief scan and photos from drone to have trees with leaves in the simulation. Photogrammetry was a technique for making models from photos. 
+First of all, we've make a scan of the site using iPad with lidar for the ground and relief scan and photos from drone to have trees with leaves in the simulation. Photogrammetry was a technique for making models from photos. 
 
 For the simulatons we've use weather data for our region and also statistics from geo-meteo-centre. Here is the [link](https://climate.onebuilding.org/) to data sourses that we used.
 Simulations were made in [Rihnoceros 3d](https://www.rhino3d.com/) program using [Ladybug tools](https://www.ladybug.tools) and [Grasshopper](https://grasshopperdocs.com) plugin.
