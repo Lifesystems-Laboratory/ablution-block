@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/Lifesystems-Laboratory/ablution-block/blob/main/architecture/Site%20analysis/Solar%20analysis/Shell_Trees_January.jpg?raw=true)
 
-The main questions for us were what ammount of solar energy we can collect on the surfases of our shell and what amount of rainwater we can have in each month from the roof to use in ablution bloсk.
+The main questions for us were what amount of solar energy we can collect on the surfaсes of our shell and what amount of rainwater we can have in each month from the roof to use in ablution bloсk.
 
 Firstly, we've make a scan of the site using iPad with lidar for the ground and relief scan and photos from drone to have trees with leaves in the simulation. Photogrammetry was a technique for making models from photos. 
 
