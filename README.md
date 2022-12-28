@@ -29,7 +29,7 @@ Create a fork of the project, edit readme.md files in various sections with your
 
 ## Project contributors:
 
-Michael Obrizkiv, Roman Sakh, Kostiantyn Kuchabskyi, Lubomyr, Yurii Zhybak, Mykolay Kravchenko, Michael Yakubiv, Ihor Mostovy ...
+Michael Obrizkiv, Roman Sakh, Kostiantyn Kuchabskyi, Lubomyr, Yurii Zhybak, Mykola Kravchenko, Michael Yakubiv, Ihor Mostovy ...
 
 First prototype was developed in cooperation of Creative Rural Hub and Ostriv Platform within the Lifesystems Laboratory with the support of Tolocar. Tolocar is a program implemented in cooperation with MitOst and supported by the German government through Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH.
 
