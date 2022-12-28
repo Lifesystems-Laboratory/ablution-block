@@ -9,7 +9,7 @@ First of all, we've make a scan of the site using iPad with lidar for the ground
 For the simulations we've use weather data for our region and also statistics from geo-meteo-centre. Here is the [link](https://climate.onebuilding.org/) to data sourses that we used.
 Simulations were made in [Rihnoceros 3d](https://www.rhino3d.com/) program using [Ladybug tools](https://www.ladybug.tools) and [Grasshopper](https://grasshopperdocs.com) plugin.
 
-Here is some of simulation results for [solar analysis](https://github.com/Lifesystems-Laboratory/ablution-block/tree/main/architecture/Site%20analysis/Solar%20analysis) and [rainwater analysis](https://github.com/Lifesystems-Laboratory/ablution-block/tree/main/architecture/Site%20analysis/Rainwater%20analysis). The software is powerfull enough to simulate also heating systems and work of the solar panels.
+Here is some of simulation results for [solar analysis](https://github.com/Lifesystems-Laboratory/ablution-block/tree/main/architecture/Site%20analysis/Solar%20analysis) and [rainwater analysis](https://github.com/Lifesystems-Laboratory/ablution-block/tree/main/architecture/Site%20analysis/Rainwater%20analysis). The software is powerful enough to simulate also heating systems and work of the solar panels.
 
 After this analysis we've choose the orientation of the shell and desided not to make transpsrent roof and wall from the north side. 
 
