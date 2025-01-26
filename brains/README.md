@@ -3,20 +3,38 @@
 
 ![alt text](https://raw.githubusercontent.com/Lifesystems-Laboratory/ablution-block/refs/heads/main/brains/smart_home.jpg)
 
-In order to keep track of the efficiency of the Ablution block and being able to fine tune systems and programs them we would like to use some kind of IoT system. 
 
-Smart system to control ablution block should include but not limited to:  
+Smart system to monitor & control ablution block is designed in a modular way: 
 
-* water usage meter 
-* heating smart contloller
-* Multiple sensors data logging
-* Seasonal optimal settings for systems
-* Lighting smart controller
-* general use logging
+* Main Hub (Home Assistant)
+* Control dashboard (tablet or old PC)
+* Air
+  * air node 1 (indoor, display)  
+  * air node 2 (shell, outdoor)
+* Water
+  * water node 1 (water tanks status)
+  * water node 2 (pumps controls, display)
+* Heating 
+  * Heatpump (Tuya integration)
+* Security
+  * door node (smart lock)
+  * camera node 1
+  * camera node 2
+  * camera node 3 
+* Power
+  * 12v network node (in, out, levels)
+  * 220v network node (in, out, levels)
+* Light
+  * indoor node (occupancy sensors, WLED)
+  * outdoor node (motion sensors, security lights)
+  
+
 
 Technology to make it happen: 
 
-Cobmine microcontrollers with wireless cpabilities like ESP8266 and ESP32 with multiple sesnors and relays use Raspberry pi as a server for main control and Home Assistant with ESPHome https://www.home-assistant.io/  https://esphome.io/ as a software to link it all. Here is a good example https://youtu.be/iufph4dF3YU
+Microcontrollers with wireless cpabilities like ESP8266 and ESP32 with multiple sesnors and relays use Raspberry pi as a server for main control and Home Assistant with ESPHome https://www.home-assistant.io/  https://esphome.io/ as a software to link it all. Here is a good example https://youtu.be/iufph4dF3YU
+
+Design Inspiration: 
 
 
 ## General Setup (Current status to be updated)
