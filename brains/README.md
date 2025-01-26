@@ -4,7 +4,9 @@
 ![alt text](https://raw.githubusercontent.com/Lifesystems-Laboratory/ablution-block/refs/heads/main/brains/smart_home.jpg)
 
 
-Smart system to monitor & control ablution block is designed in a modular way: 
+Smart system to monitor & control ablution block is designed in a modular way. Main hub is connecting a lot of nodes. Each node is a seperate microcontroller that can work on it's own (monitoring and controlling one of the systems).
+
+## Index of modules
 
 * Main Hub (Home Assistant)
 * Control dashboard (tablet or old PC)
@@ -20,7 +22,6 @@ Smart system to monitor & control ablution block is designed in a modular way:
   * door node (smart lock)
   * camera node 1
   * camera node 2
-  * camera node 3 
 * Power
   * 12v network node (in, out, levels)
   * 220v network node (in, out, levels)
@@ -30,12 +31,9 @@ Smart system to monitor & control ablution block is designed in a modular way:
   
 
 
-Technology to make it happen: 
+##Technology to make it happen: 
 
-Microcontrollers with wireless cpabilities like ESP8266 and ESP32 with multiple sesnors and relays use Raspberry pi as a server for main control and Home Assistant with ESPHome https://www.home-assistant.io/  https://esphome.io/ as a software to link it all. Here is a good example https://youtu.be/iufph4dF3YU
-
-Design Inspiration: 
-
+Each node is a ESP8266 or ESP32  with multiple sesnors and relay  https://esphome.io/ . Main hub is a Raspberry Pi running Home Assistant https://www.home-assistant.io/  Here is a good example of this kind of setup https://youtu.be/iufph4dF3YU
 
 ## General Setup (Current status to be updated)
 
