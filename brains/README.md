@@ -11,7 +11,7 @@ Smart system to monitor & control ablution block is designed in a modular way. M
 * Main Hub (Home Assistant)
 * Control dashboard (tablet or old PC)
 * Air
-  * air node 1 (indoor, display)  
+  * air node 1 (indoor, tiny display)  
   * air node 2 (shell, outdoor)
 * Water
   * water node 1 (water tanks status)
@@ -30,23 +30,21 @@ Smart system to monitor & control ablution block is designed in a modular way. M
   * outdoor node (motion sensors, security lights)
   
 
-
 ## Technology to make it happen: 
 
 Each node is a ESP8266 or ESP32  with multiple sesnors and relay  https://esphome.io/ . Main hub is a Raspberry Pi running Home Assistant https://www.home-assistant.io/  Here is a good example of this kind of setup https://youtu.be/iufph4dF3YU
 
-## General Setup (Current status to be updated)
+## General Setup ideas
 
 We use Raspberry pi 4 (8gb Ram version) as a main computer for Home Assistant and followed installation instructions from here https://www.home-assistant.io/installation/raspberrypi 
 
 As the wireless boards for ESPHome so far tested different versions of ESP8266: NodeMCU v1.1 and Wemos D1 mini, Wemos D1 mini pro. All boards seem to work as expected. They could be reprogrammed over wifi, after flashing them via USB connected directly to raspberry pi server. Followed different tutorials here from ESPHome and Home Assitant websites specific for the boards and sensors. 
 
-Currently we just use power banks or usb power from raspberry but ideally each sensor cluster should have it's own local power sourse.  
 We plan to make each wireles cluster of sensors individually powered with supercapacitors as a battery and solar panel or tiny water turbine as a generator. Each wireless board will be calibrated to take advantage of the 'deep sleep' power mode to only fully wake up when it needs to log data or when triggered by a sensor. 
 
 Home Assistant is the great platform that will allow to collect and diplay data, together with ESPHome it will allow flexibility and scalability for the smart systems in Ablution Block and we will add constantly more sensors and controls as we experiment with different climate and water technologies.  
 
-## User Experience 
+## User Experience ideas
 
 Home Assistant provides many options to control settings and monitor all systems, in addition it will be possible to integrate any of the mainstream voice assistant. However we would like to make User Experience as intuitive and unobtrusive as possible using so called "calm technology" approach. 
 
