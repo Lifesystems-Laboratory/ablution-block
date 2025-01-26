@@ -31,7 +31,7 @@ Smart system to monitor & control ablution block is designed in a modular way. M
   
 
 
-##Technology to make it happen: 
+## Technology to make it happen: 
 
 Each node is a ESP8266 or ESP32  with multiple sesnors and relay  https://esphome.io/ . Main hub is a Raspberry Pi running Home Assistant https://www.home-assistant.io/  Here is a good example of this kind of setup https://youtu.be/iufph4dF3YU
 
