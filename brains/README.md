@@ -1,7 +1,7 @@
 # A section dedicated to the brains of the Ablution block
 
 
-![alt text](https://raw.githubusercontent.com/Lifesystems-Laboratory/ablution-block/refs/heads/main/brains/smart_home.jpg)
+![alt text](smart_home.jpg)
 
 
 Smart system to monitor & control ablution block is designed in a modular way. Main hub is connecting a lot of nodes. Each node is a seperate microcontroller that can work on it's own (monitoring and controlling one of the systems).
